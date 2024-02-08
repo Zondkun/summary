@@ -1,0 +1,175 @@
+/* basic */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* взяли шрифты с google fonts и прописали правило font-family: 'Inter', sans-serif;*/
+  font-family: "Inter", sans-serif;
+}
+
+/* header */
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  /* это правила для центровочного контейнера */
+}
+
+.header-wrapper {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  display: flex;
+  margin: 0 auto;
+}
+
+.header-contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.img {
+  border: 3px solid;
+  border-radius: 50%;
+  width: 264px;
+  height: 264px;
+  background-color: hsla(240, 56%, 98%, 1);
+}
+
+.header_social {
+  display: flex;
+  list-style-type: none;
+}
+
+.social_icon_vk,
+.social_icon_telegram,
+.social_icon_whatsUp {
+  width: 32px;
+  height: 23px;
+}
+
+.header-info {
+  padding-left: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.info-box {
+  background: hsla(240, 56%, 98%, 1);
+  display: flex;
+  width: 940px;
+  flex-direction: column;
+  border-radius: 30px;
+}
+
+.header-summary {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.left {
+  width: 250px;
+  color: #9999a3;
+}
+
+.right {
+  color: black;
+}
+
+.stick-gray {
+  background-color: #9999a35b;
+  height: 1px;
+  width: 900px;
+  margin-left: 20px;
+}
+
+.main-information {
+  margin-left: 296px;
+}
+
+.jobexp {
+  width: 940px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 296px;
+}
+
+.jobexp-p {
+  color: hsla(240, 4%, 75%, 1);
+}
+
+.jobexp > article {
+  margin-top: 10px;
+}
+
+.text-main {
+  display: flex;
+}
+
+.text-separation {
+  margin-top: 5px;
+}
+
+.main-assume-left {
+  width: 250px;
+}
+
+.activity > div {
+  display: inline-flex;
+  margin-right: 10px;
+}
+
+.activity-left {
+  padding: 8px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: rgb(141, 10, 161);
+  color: hsla(0, 0%, 100%, 1);
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.activity-right {
+  padding: 8px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: pink;
+  color: hsla(0, 0%, 100%, 1);
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-experience {
+  margin-top: 12px;
+}
+
+footer {
+  width: 940px;
+  margin-left: 296px;
+}
+
+footer > article {
+  margin-bottom: 25px;
+}
+
+.skills {
+  margin-top: 20px;
+}
+
+.skills > span {
+  margin-right: 12px;
+  height: 44px;
+  padding: 8px;
+  background: hsla(240, 33%, 97%, 1);
+  border-radius: 8px;
+}
